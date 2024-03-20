@@ -191,7 +191,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                             <Link
                               href="/about"
                               className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
-                                pathname === "/" && "text-white"
+                                pathname === "/about" && "text-white"
                               }`}
                             >
                               A Propos
@@ -317,9 +317,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                         <ul className="mb-5.5 mt-4 flex flex-col gap-2.5 pl-6">
                           <li>
                             <Link
-                              href="/vods/vod-one"
+                              href="/vods/tvs"
                               className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
-                                pathname === "/vods/vod-one" &&
+                                pathname === "/vods/tvs" &&
                                 "text-white"
                               }`}
                             >
@@ -328,9 +328,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                           </li>
                           <li>
                             <Link
-                              href="/vods/vod-two"
+                              href="/vods/avod"
                               className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
-                                pathname === "/vods/form-layout" &&
+                                pathname === "/vods/avod" &&
                                 "text-white"
                               } `}
                             >
@@ -339,9 +339,9 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
                           </li>
                           <li>
                             <Link
-                              href="/vods/vod-three"
+                              href="/vods/svod"
                               className={`group relative flex items-center gap-2.5 rounded-md px-4 font-medium text-bodydark2 duration-300 ease-in-out hover:text-white ${
-                                pathname === "/vods/vod-three" &&
+                                pathname === "/vods/svod" &&
                                 "text-white"
                               } `}
                             >

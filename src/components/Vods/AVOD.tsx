@@ -36,12 +36,12 @@ const productData: Product[] = [
   },
 ];
 
-const VodTwo = () => {
+const VodTables = () => {
   return (
     <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
       <div className="px-4 py-6 md:px-6 xl:px-7.5">
         <h4 className="text-xl font-semibold text-black dark:text-white">
-          Top Products
+          Advertising VOD
         </h4>
       </div>
 
@@ -105,4 +105,4 @@ const VodTwo = () => {
   );
 };
 
-export default VodTwo;
+export default VodTables;
